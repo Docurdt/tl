@@ -1,17 +1,18 @@
 # Transfer learning notes
-1. 将所有MMP家族的蛋白酶底物合并至一起，然后使用CDHIT去冗余；
-2. 分离出各个家族的蛋白酶底物，并统计所剩裂解位点数量；
----
-Merops ID | number of substrates | number of cleavage sites
-----------|:--------------------:|:-----------------------:
-M10.001 | 20 | 20
-M10.002 | 14 | 14
-M10.003 | 22 | 22
-M10.004 | 18 | 18
-M10.005 | 17 | 17
-M10.008 | 14 | 14
-M10.009 | 2 | 2
-M10.013 | 1 | 1
-M10.014 | 15 | 15
----
-3. 
+
+Merops ID | number of cleavage sites
+----------|:--------------------:
+M10.001- | 52
+M10.002* | 85
+M10.003* | 115
+M10.004# | 290
+M10.005# | 132
+M10.008# | 142
+M10.009# | 178
+M10.013- | 90
+M10.014- | 92
+"*": Target set; "-": Removed; "#": Source set
+* There are no enough cleavage sites remained after removing redundancy all MMP family substrates together;
+* Use the M10.002, M10.003 as the target proteases which were compared in our previous work;
+* Use the M10.004, M10.005, M10.008, M10.009 as the source proteases to generate the global optimal feature set;
+*
