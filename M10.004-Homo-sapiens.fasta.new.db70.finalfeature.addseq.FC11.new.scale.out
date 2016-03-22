@@ -6202,3 +6202,11 @@ log2c=10.0 log2g=-5.0 log2p=-2.0 mse=0.210361
 log2c=10.0 log2g=-5.0 log2p=9.0 mse=0.25
 log2c=10.0 log2g=-5.0 log2p=-9.0 mse=0.241956
 log2c=10.0 log2g=-5.0 log2p=2.0 mse=0.25
+log2c=10.0 log2g=-5.0 log2p=-3.0 mse=0.222313
+log2c=10.0 log2g=-5.0 log2p=8.0 mse=0.25
+log2c=10.0 log2g=-5.0 log2p=-6.0 mse=0.238763
+log2c=10.0 log2g=-5.0 log2p=5.0 mse=0.25
+log2c=10.0 log2g=-5.0 log2p=-1.0 mse=0.25
+log2c=10.0 log2g=-5.0 log2p=10.0 mse=0.25
+log2c=10.0 log2g=-5.0 log2p=-10.0 mse=0.242178
+log2c=10.0 log2g=-5.0 log2p=1.0 mse=0.25
